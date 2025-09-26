@@ -1,0 +1,127 @@
+.dashboard-page {
+  min-height: 100vh;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(139, 69, 19, 0.1) 0%, rgba(184, 107, 75, 0.1) 100%);
+  border-radius: 15px;
+  border: 2px solid #e9dfd0;
+}
+
+.dashboard-header h1 {
+  color: #8a4b2f;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.dashboard-header p {
+  color: #795548;
+  font-size: 1.1rem;
+}
+
+.no-bookings {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #795548;
+}
+
+.no-bookings h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #8a4b2f;
+}
+
+.bookings-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.booking-card {
+  background: #fff8f0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
+  border: 2px solid #e9dfd0;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.booking-image {
+  position: relative;
+  height: 200px;
+}
+
+.booking-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.booking-status {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: #4caf50;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.booking-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking-content h3 {
+  color: #8a4b2f;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.booking-details {
+  margin-bottom: 1.5rem;
+}
+
+.booking-details p {
+  margin: 0.5rem 0;
+  color: #5d4037;
+}
+
+.cancel-booking-btn {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.cancel-booking-btn:hover {
+  background: #b71c1c;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .booking-card {
+    grid-template-columns: 1fr;
+  }
+  
+  .booking-image {
+    height: 200px;
+  }
+}

@@ -1,0 +1,76 @@
+/* HOME PAGE */
+.home {
+  padding: 2rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.home h1 {
+  margin-bottom: 1.5rem;
+  color: var(--color-accent-dark);
+  font-size: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.space-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+/* SPACE DETAIL */
+.space-detail {
+  padding: 2rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.space-detail h2 {
+  color: var(--color-accent-dark);
+  margin-bottom: 1rem;
+}
+
+.space-detail img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+/* DASHBOARD */
+.dashboard {
+  padding: 2rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.dashboard ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.dashboard li {
+  background: var(--color-light);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+/* LOGIN */
+.login-page {
+  text-align: center;
+  padding: 2rem;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.login-page h2 {
+  margin-bottom: 1rem;
+  color: var(--color-accent-dark);
+}

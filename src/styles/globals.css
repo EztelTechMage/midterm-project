@@ -1,0 +1,64 @@
+@import "./variables.css";
+@import "./components.css";
+@import "./pages.css";
+@import "./animation.css";
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: url("/assets/imageexample.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: var(--color-text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Soft tint overlay for cozy vibe */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(250, 246, 241, 0.95);
+  z-index: -1;
+}
+
+/* General Links */
+a {
+  text-decoration: none;
+  color: var(--color-accent-dark);
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+/* Buttons */
+button {
+  font-family: var(--font-secondary);
+  background: var(--color-accent);
+  border: none;
+  padding: 0.6rem 1.4rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-soft);
+}
+
+button:hover {
+  background: var(--color-accent-dark);
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

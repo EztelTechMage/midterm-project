@@ -1,0 +1,88 @@
+.booking-form {
+  background: #fff8f0;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
+  border: 2px solid #e9dfd0;
+  margin-top: 2rem;
+}
+
+.booking-form h3 {
+  color: #8a4b2f;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #5d4037;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+}
+
+.time-select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #b86b4b;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.time-select:focus {
+  outline: none;
+  border-color: #8a4b2f;
+  box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+}
+
+.booking-summary {
+  background: #e9dfd0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin: 1.5rem 0;
+}
+
+.booking-summary h4 {
+  color: #8a4b2f;
+  margin-bottom: 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.booking-summary p {
+  margin: 0.5rem 0;
+  color: #5d4037;
+}
+
+.book-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #8a4b2f, #b86b4b);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', monospace;
+}
+
+.book-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.3);
+}
+
+.book-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}

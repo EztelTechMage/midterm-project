@@ -1,0 +1,12 @@
+.app {
+  min-height: 100vh;
+  /* Use your background.jpg file */
+  background: linear-gradient(rgba(250, 246, 241, 0.85), rgba(233, 223, 208, 0.9)), 
+              url('/home/eztel/Documents/Studyspot_booking app/studyspot_booking-project/public/assets/study-spaces/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-content {
+  min-height: calc(100vh - 80px);
+  padding-top: 20px;
+}

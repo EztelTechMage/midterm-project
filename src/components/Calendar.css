@@ -1,0 +1,20 @@
+.calendar-container {
+  width: 100%;
+}
+
+.calendar-input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #b86b4b;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+}
+
+.calendar-input:focus {
+  outline: none;
+  border-color: #8a4b2f;
+  box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+}

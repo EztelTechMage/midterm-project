@@ -1,0 +1,367 @@
+[
+  {
+    "id": 1,
+    "name": "The Study Nook",
+    "location": "Quezon City",
+    "price": 300,
+    "main_image": "/assets/study-spaces/spaces1.jpg",
+    "images": ["/assets/study-spaces/spaces3.jpg", "/assets/study-spaces/spaces5.jpg"],
+    "description": "A quiet and cozy space perfect for deep focus sessions. Equipped with soundproof pods and an extensive library for a productive day.",
+    "amenities": [
+      "High-speed Wi-Fi",
+      "Free Coffee & Tea",
+      "Power Outlets at every seat",
+      "Air-conditioned",
+      "Printing Services"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 10:00 PM",
+      "weekends": "7:00 AM - 9:00 PM"
+    },
+    "time_slots": ["9am - 1pm", "1pm - 5pm", "5pm - 9pm"],
+    "capacity": 50,
+    "rating": 4.8,
+    "reviews": 127
+  },
+  {
+    "id": 2,
+    "name": "WorkHaven Makati",
+    "location": "Makati City",
+    "price": 500,
+    "main_image": "/assets/study-spaces/spaces2.jpg",
+    "images": ["/assets/space2_a.jpg", "/assets/space2_b.jpg"],
+    "description": "A professional co-working environment in the heart of the business district. Ideal for meetings, collaborations, and networking.",
+    "amenities": [
+      "Fiber Internet",
+      "Meeting Rooms",
+      "Gourmet Pantry",
+      "24/7 Access",
+      "Ergonomic Chairs"
+    ],
+    "operating_hours": {
+      "weekdays": "24/7",
+      "weekends": "24/7"
+    },
+    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"],
+    "capacity": 100,
+    "rating": 4.6,
+    "reviews": 89
+  },
+  {
+    "id": 3,
+    "name": "Cebu Creative Hub",
+    "location": "Cebu City",
+    "price": 250,
+    "main_image": "/assets/study-spaces/spaces3.jpg",
+    "images": [],
+    "description": "A vibrant and artistic space designed to foster creativity and collaboration among Cebu's digital nomads and artists.",
+    "amenities": [
+      "Community Events",
+      "Art Supplies",
+      "Fast Wi-Fi",
+      "Pet-friendly",
+      "Outdoor Garden"
+    ],
+    "operating_hours": {
+      "weekdays": "8:00 AM - 8:00 PM",
+      "weekends": "9:00 AM - 6:00 PM"
+    },
+    "time_slots": ["Morning Session (10am-2pm)", "Afternoon Session (2pm-6pm)"],
+    "capacity": 40,
+    "rating": 4.4,
+    "reviews": 63
+  },
+  {
+    "id": 4,
+    "name": "The Archives",
+    "location": "Lipa City",
+    "price": 200,
+    "main_image": "/assets/study-spaces/archive.jpg",
+    "images": [],
+    "description": "A vintage-inspired study space with antique bookshelves and comfortable leather chairs, perfect for academic research.",
+    "amenities": [
+      "Historical Archives",
+      "Quiet Zones",
+      "Study Carrels",
+      "Research Assistance",
+      "Printing Services"
+    ],
+    "operating_hours": {
+      "weekdays": "7:00 AM - 9:00 PM",
+      "weekends": "8:00 AM - 8:00 PM"
+    },
+    "time_slots": ["Early Bird (7am-11am)", "Midday (11am-3pm)", "Evening (3pm-9pm)"],
+    "capacity": 35,
+    "rating": 4.7,
+    "reviews": 94
+  },
+  {
+    "id": 5,
+    "name": "Coffee Project",
+    "location": "Taft Avenue Manila",
+    "price": 350,
+    "main_image":  "/assets/study-spaces/coffee.jpg",
+    "images": ["/assets/study-spaces/coffee1.jpg","/assets/study-spaces/coffee2.jpg"],
+    "description": "Modern coffee shop with dedicated study areas, perfect for students who need caffeine and concentration.",
+    "amenities": [
+      "Artisanal Coffee",
+      "Group Study Rooms",
+      "Fast Wi-Fi",
+      "Power Outlets",
+      "Comfortable Seating"
+    ],
+    "operating_hours": {
+      "weekdays": "6:30 AM - 11:00 PM",
+      "weekends": "7:00 AM - 10:00 PM"
+    },
+    "time_slots": ["Breakfast Session (6:30am-10:30am)", "Lunch Session (11am-3pm)", "Evening Session (4pm-11pm)"],
+    "capacity": 60,
+    "rating": 4.5,
+    "reviews": 156
+  },
+  {
+    "id": 6,
+    "name": "Spill the Beans",
+    "location": "Lipa City",
+    "price": 0,
+    "main_image": "/assets/study-spaces/spill.jpg",
+    "images": [],
+    "description": "A vibrant and right temperature space designed to foster focus and collaboration among Lipa City De La Salle students and book readers.",
+    "amenities": [
+      "Coffee Shop",
+      "White Space",
+      "Fast Free Wi-Fi",
+      "Friendly Staff",
+      "Indoor Garden"
+    ],
+    "operating_hours": {
+      "weekdays": "8:00 AM - 10:00 PM",
+      "weekends": "9:00 AM - 8:00 PM"
+    },
+    "time_slots": ["Morning Session (10am-2pm)", "Afternoon Session (2pm-6pm)"],
+    "capacity": 45,
+    "rating": 4.3,
+    "reviews": 78
+  },
+  {
+    "id": 7,                                                                                                                                    
+    "name": "Lipa City Library",
+    "location": "Lipa City",
+    "price": 0,
+    "main_image": "/assets/study-spaces/library.jpg",
+    "images": [],
+    "description": "Public library with modern study facilities and extensive collection of academic resources.",
+    "amenities": [
+      "Extensive Book Collection",
+      "Quiet Study Areas",
+      "Research Databases",
+      "Computer Access",
+      "Printing Services"
+    ],
+    "operating_hours": {
+      "weekdays": "8:00 AM - 8:00 PM",
+      "weekends": "9:00 AM - 6:00 PM"
+    },
+    "time_slots": ["Full Day Access"],
+    "capacity": 120,
+    "rating": 4.2,
+    "reviews": 203
+  },
+  {
+    "id": 8,
+    "name": "Baguio Study Lodge",
+    "location": "Baguio City",
+    "price": 280,
+    "main_image": "/assets/study-spaces/spaces5.jpg",
+    "images": [],
+    "description": "Mountain-view study space with cool climate and serene environment perfect for long study sessions.",
+    "amenities": [
+      "Mountain View",
+      "Fireplace Lounge",
+      "High-speed Internet",
+      "Hot Beverages",
+      "Quiet Zones"
+    ],
+    "operating_hours": {
+      "weekdays": "7:00 AM - 9:00 PM",
+      "weekends": "8:00 AM - 8:00 PM"
+    },
+    "time_slots": ["Morning (7am-12pm)", "Afternoon (12pm-5pm)", "Evening (5pm-9pm)"],
+    "capacity": 55,
+    "rating": 4.9,
+    "reviews": 134
+  },
+  {
+    "id": 9,
+    "name": "Davao WorkSpace",
+    "location": "Davao City",
+    "price": 320,
+    "main_image": "/assets/study-spaces/spaces8.jpg",
+    "images": ["/assets/study-spaces/spaces6.jpg"],
+    "description": "Professional co-working space with modern amenities and business facilities in Davao's commercial district.",
+    "amenities": [
+      "Meeting Rooms",
+      "Video Conferencing",
+      "Business Center",
+      "High-speed Internet",
+      "Administrative Support"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 10:00 PM",
+      "weekends": "7:00 AM - 8:00 PM"
+    },
+    "time_slots": ["Full Day Pass", "Half Day (Morning)", "Half Day (Afternoon)"],
+    "capacity": 80,
+    "rating": 4.6,
+    "reviews": 67
+  },
+  {
+    "id": 10,
+    "name": "Iloilo Study Hub",
+    "location": "Iloilo City",
+    "price": 220,
+    "main_image": "/assets/study-spaces/iloilo.jpeg",
+    "images": ["/assets/study-spaces/iloilo.jpeg"],
+    "description": "Cozy study environment with traditional Filipino architecture and modern study facilities.",
+    "amenities": [
+      "Traditional Design",
+      "Air-conditioned",
+      "Study Pods",
+      "Coffee Bar",
+      "Printing Services"
+    ],
+    "operating_hours": {
+      "weekdays": "6:30 AM - 10:00 PM",
+      "weekends": "7:00 AM - 9:00 PM"
+    },
+    "time_slots": ["Early Session (6:30am-10:30am)", "Mid Session (11am-3pm)", "Late Session (4pm-10pm)"],
+    "capacity": 50,
+    "rating": 4.4,
+    "reviews": 89
+  },
+  {
+    "id": 11,
+    "name": "Cagayan de Oro Study Center",
+    "location": "Cagayan de Oro",
+    "price": 240,
+    "main_image": "/assets/study-spaces/cdo.jpg",
+    "images": ["/assets/study-spaces/cdo1.jpg"],
+    "description": "Modern study center with river view and comfortable study environment for students and professionals.",
+    "amenities": [
+      "River View",
+      "Group Study Rooms",
+      "High-speed Wi-Fi",
+      "Snack Bar",
+      "Parking Space"
+    ],
+    "operating_hours": {
+      "weekdays": "7:00 AM - 9:00 PM",
+      "weekends": "8:00 AM - 8:00 PM"
+    },
+    "time_slots": ["Morning (7am-12pm)", "Afternoon (12pm-5pm)", "Evening (5pm-9pm)"],
+    "capacity": 65,
+    "rating": 4.5,
+    "reviews": 56
+  },
+  {
+    "id": 12,
+    "name": "Mr. Park's Bread and Cake",
+    "location": "Pasig City",
+    "price": 260,
+    "main_image": "/assets/study-spaces/park1.jpg",
+    "images": ["/assets/study-spaces/park2.jpg"],
+    "description": "As a cafe, the coffee is alright, and Mr Park's is open 24 hours and is comfortable enough to finish a long night's work or study",
+    "amenities": [
+      "Offers take-out",
+      "Accepts credit cards",
+      "Good for working",
+      "Offers delivery",
+      "Free Wi-Fi"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 11:00 PM",
+      "weekends": "7:00 AM - 10:00 PM"
+    },
+    "time_slots": ["Breakfast Study (6am-10am)", "Day Study (10am-4pm)", "Night Study (5pm-11pm)"],
+    "capacity": 26,
+    "rating": 4.1,
+    "reviews": 22
+  },
+
+  {
+    "id": 13,
+    "name": "Bacolod Study Cafe",
+    "location": "Bacolod City",
+    "price": 260,
+    "main_image": "/assets/study-spaces/spaces6.jpg",
+    "images": [],
+    "description": "Sweet study spot combining cafe culture with productive study environment, famous for local coffee blends.",
+    "amenities": [
+      "Local Coffee Blends",
+      "Sugar-themed Decor",
+      "Fast Internet",
+      "Comfortable Seating",
+      "Study Lamps"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 11:00 PM",
+      "weekends": "7:00 AM - 10:00 PM"
+    },
+    "time_slots": ["Breakfast Study (6am-10am)", "Day Study (10am-4pm)", "Night Study (5pm-11pm)"],
+    "capacity": 40,
+    "rating": 4.7,
+    "reviews": 112
+  },
+
+  {
+    "id": 14,
+    "name": "Backyard Coffee",
+    "location": "San Juan,NCR",
+    "price": 260, 
+    "main_image": "/assets/study-spaces/backyard.jpg",
+    "images": ["/assets/study-spaces/backyard1.jpg"],
+    "description": "good study spot for combining cafe culture with productive study environment, famous for manileneos blends.",
+    "amenities": [
+      "manileneos Coffee Blends",
+      "desserts while studiying",
+      "Fast Internet",
+      "Comfortable Seating",
+      "Study tables"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 11:00 PM",
+      "weekends": "7:00 AM - 10:00 PM"
+    },
+    "time_slots": ["Breakfast Study (6am-10am)", "Day Study (10am-4pm)", "Night Study (5pm-11pm)"],
+    "capacity": 20,
+    "rating": 3.7,
+    "reviews": 11
+  },
+
+  {
+    "id": 15,
+    "name": "Warehouse Eight",
+    "location": "Makati City, NCR",
+    "price": 260,
+    "main_image": "/assets/study-spaces/werehouse.jpg",
+    "images": ["/assets/study-spaces/were.jpg"],
+    "description": "If you're finding a flexible office space, event venue for parties, workshops or seminars- our warehouse is a multifunctional space that can hold 15-150 pax. ",
+    "amenities": [
+      "Office space rental",
+      "Wedding planning",
+      "workshop",
+      "seminar",
+      "Study Nook"
+    ],
+    "operating_hours": {
+      "weekdays": "6:00 AM - 11:00 PM",
+      "weekends": "7:00 AM - 10:00 PM"
+    },
+    "time_slots": ["Breakfast Study (6am-10am)", "Day Study (10am-4pm)", "Night Study (5pm-11pm)"],
+    "capacity": 70,
+    "rating": 4.1,
+    "reviews": 10
+  }
+]
+
+

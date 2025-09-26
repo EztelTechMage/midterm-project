@@ -1,0 +1,126 @@
+.space-card {
+  background: #fff8f0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(139, 69, 19, 0.1);
+  transition: all 0.4s ease;
+  border: 1px solid #e9dfd0;
+}
+
+.space-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(139, 69, 19, 0.2);
+}
+
+.space-card-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.space-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.space-card:hover .space-card-image img {
+  transform: scale(1.05);
+}
+
+.space-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
+}
+
+.space-price {
+  background: #b86b4b;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.space-rating {
+  background: rgba(255, 255, 255, 0.9);
+  color: #8a4b2f;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.space-card-content {
+  padding: 1.5rem;
+}
+
+.space-name {
+  font-size: 1.4rem;
+  color: #8a4b2f;
+  margin-bottom: 0.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.space-location {
+  color: #795548;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.space-hours {
+  color: #a1887f;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.space-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.amenity-tag {
+  background: #e9dfd0;
+  color: #5d4037;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.amenity-more {
+  background: #b86b4b;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.view-details-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #8a4b2f, #b86b4b);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.view-details-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.3);
+}
