@@ -7,7 +7,6 @@ function ProtectedRoute({ children }) {
   const [isChecking, setIsChecking] = useState(true);
 
   useEffect(() => {
-    // Wait for all contexts to load
     const timer = setTimeout(() => {
       setIsChecking(false);
       console.log("🛡️ ProtectedRoute: Auth check completed, user:", user);
@@ -16,7 +15,6 @@ function ProtectedRoute({ children }) {
     return () => clearTimeout(timer);
   }, [user]);
 
-  // Show loading while contexts initialize
   if (isChecking) {
     return (
       <div className="auth-loading">
@@ -28,7 +26,6 @@ function ProtectedRoute({ children }) {
     );
   }
 
-  // Redirect to login if no user
   if (!user) {
     console.log("🛡️ ProtectedRoute: No user, redirecting to login");
     return <Navigate to="/login" replace />;
