@@ -9,13 +9,11 @@ export const BookingProvider = ({ children }) => {
     syncTabs: true 
   });
 
-  // Ensure bookings is always an array
   const safeBookings = Array.isArray(bookings) ? bookings : [];
 
   const addBooking = useCallback((bookingData) => {
     console.log("📝 BookingContext: Add booking requested:", bookingData);
     
-    // Validate booking data
     if (!bookingData.userId) {
       alert("❌ Please log in to book a space!");
       return null;
