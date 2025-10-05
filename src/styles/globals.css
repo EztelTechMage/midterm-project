@@ -3,7 +3,7 @@
 @import "./pages.css";
 @import "./animation.css";
 
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
   line-height: 1.6;
 }
 
-/* Soft tint overlay for cozy vibe */
+
 body::before {
   content: "";
   position: fixed;

@@ -38,7 +38,7 @@ function useLocalStorage(key, initialValue, options = {}) {
     }
   });
 
-  // Ref to track initial render and prevent unnecessary saves
+  
   const isFirstRender = useRef(true);
   const isSettingValue = useRef(false);
 

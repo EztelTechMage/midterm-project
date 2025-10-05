@@ -3,9 +3,9 @@ import useLocalStorage from "../hooks/useLocalStorage";
 
 const AuthContext = createContext(null);
 
-// Use a consistent guest user ID for persistence
+
 const createGuestUser = () => ({
-  id: 'guest-user-permanent', // Consistent ID for booking persistence
+  id: 'guest-user-permanent', 
   name: "Guest User", 
   email: "guest@studyspot.ph",
   avatar: "👤",
@@ -29,8 +29,7 @@ export const AuthProvider = ({ children }) => {
     if (isInitialLoad.current) {
       isInitialLoad.current = false;
       
-      // Optional: Always start logged out for testing
-      // setUser(null);
+  
     }
   }, []); // Empty dependency array since we only want this to run once on mount
 
@@ -43,7 +42,7 @@ export const AuthProvider = ({ children }) => {
     
     console.log("✅ AuthContext: User logged in successfully:", guestUser);
     return guestUser;
-  }, [setUser]); // Only setUser as dependency
+  }, [setUser]); 
 
   const logout = useCallback(() => {
     console.log("🔐 AuthContext: Logout requested");

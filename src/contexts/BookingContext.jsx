@@ -37,7 +37,7 @@ export const BookingProvider = ({ children }) => {
       setBookings(prevBookings => {
         const currentBookings = Array.isArray(prevBookings) ? prevBookings : [];
         
-        // Check for duplicates
+        
         const existingBooking = currentBookings.find(
           b => b.spaceId === bookingData.spaceId && 
                b.date === bookingData.date && 
